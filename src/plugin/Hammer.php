@@ -101,43 +101,43 @@ class Hammer extends PluginBase implements Listener
 
                 return Item::get(0);
 
-                break;
+                
 
             case Block::SAND:
 
                 return Item::get(0);
 
-                break;
+                
 
             case Block::PURPUR_BLOCK:
 
                 return Item::get(0);
 
-                break;
+                
 
             case Block::SANDSTONE:
 
                 return Item::get(0);
 
-                break;
+                
 
             case Block::LAVA:
 
                 return Item::get(0);
 
-                break;
+                
 
             case Block::WATER:
 
                 return Item::get(0);
 
-                break;
+                
 
             case Block::DIRT:
 
                 return Item::get(0);
 
-                break;
+                
 
 //Ceci est l'exemple
             case Block::COAL_ORE:
@@ -147,91 +147,91 @@ class Hammer extends PluginBase implements Listener
 //Sa c'est le le nom de l'item frop apres la , le meta et ne surtout pas touche le $rand
                 return Item::get(Item::COAL,0, $rand);
                 
-                break;
+                
 
             case Block::DIAMOND_ORE:
 
                 return Item::get(Item::DIAMOND);
 
-                break;
+                
 
             case Block::GLASS:
 
                 return Item::get(0);
 
-                break;
+                
 
             case 17:
 
                 return Item::get(0);
 
-                break;
+                
 
             case 162:
 
                 return Item::get(0);
 
-                break;
+                
 
             case 246:
 
                 return Item::get(0);
 
-                break;
+               
 
             case 31:
 
                 return Item::get(0);
 
-                break;
+                
 
             case 175:
 
                 return Item::get(0);
 
-                break;
+                
 
             case 74:
 
                 return Item::get(Block::REDSTONE_ORE);
 
-                break;
+                
 
             case Block::GLASS_PANE:
 
                 return Item::get(0);
 
-                break;
+                
 
             case Block::ENDER_CHEST:
 
                 return Item::get(Item::OBSIDIAN,0, 5);
 
-                break;
+                
 
             case Block::ANVIL:
 
                 return Item::get(Item::OBSIDIAN, $block->getDamage(), 5);
 
-                break;
+                
 
             case Block::GLOWSTONE:
 
                 return Item::get(Item::PRISMARINE_CRYSTALS, 0, rand(1,4));
 
-                break;
+                
 
             case Block::SPONGE:
 
                 return Item::get(0);
 
-                break;
+                
 
             default:
 
                 return Item::get($block->getID());
 
-                break;
+               
 
         }
 
