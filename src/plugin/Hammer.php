@@ -95,7 +95,7 @@ class Hammer extends PluginBase implements Listener
 
                 return Item::get(0);
 
-                break;
+                
 
             case Block::GRASS:
 
