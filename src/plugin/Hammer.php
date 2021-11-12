@@ -227,7 +227,7 @@ class Hammer extends PluginBase implements Listener
 
             case Block::SPONGE:
 
-                return Item::get(0);
+                return Item::get(Item::SPONGE);
 
                 
 
