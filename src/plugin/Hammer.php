@@ -67,8 +67,7 @@ class Hammer extends PluginBase implements Listener
 
                     $block = $blocks->getLevel()->getBlockAt($x,$y,$z);
 
-                    if ($block->getId() == Block::OBSIDIAN or
-                        $block->getId() == Block::BEDROCK) {
+                    if ($block->getId() == Block::BEDROCK) {
 
                     } else {
 
