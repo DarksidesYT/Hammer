@@ -158,8 +158,11 @@ class Hammer extends PluginBase implements Listener
             case Block::GLASS:
 
                 return Item::get(0);
-
                 
+
+            case Block::SHULKER_BOX:
+
+                 return Item::get(Item::SHULKER_BOX);
 
             case 17:
 
